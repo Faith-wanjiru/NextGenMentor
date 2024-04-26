@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#dashboard{
+    display: flex;
+}
+
+.introduction{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 50%;
+}
+
+#footer{
+    display: flex;
+}
+
+
+@media screen and (min-width: 280px) and (max-width:653px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    #dashboard{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .introduction{
+        color: blue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        font-weight: 50%;
+        flex-wrap: wrap;
+    }
+
+    #footer{
+        display: flex;
+        width: 250px;
+        height: 105px;
+        margin-top: 15%;
+        justify-content: space-between;
+        gap: 320px;
+        flex-wrap: wrap;
+    }
+}

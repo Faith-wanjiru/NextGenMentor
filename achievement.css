@@ -1,0 +1,40 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    background-color: rgb(204, 65, 204) ;
+    
+}
+
+.achievement{
+    border: 20px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 280px) and (max-width:653px){
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .achievement{
+        border: 20px;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width:768px){
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .achievement{
+        border: 20px;
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+}

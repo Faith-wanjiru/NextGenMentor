@@ -1,0 +1,32 @@
+input[type=text],input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+}
+
+.signin{
+    color: white;
+    background-color: rgb(255, 0, 170);
+    width: 150px;
+    border-radius: 15px;
+    height: 50px;
+    font-size: xx-large;
+}
+
+#signin{
+    text-align: center;
+    font-size: xx-large;
+    align-items: center;
+    margin-left: 43%;
+    color:white;
+    background-color: blueviolet;
+    border-radius: 25px;
+}
+
+#login{
+    border: 2px solid;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: palevioletred
+}
+

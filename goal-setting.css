@@ -1,0 +1,10 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#goal-setting{
+    text-align: center;
+    color: black;
+    border: 10px;
+}

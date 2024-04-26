@@ -1,0 +1,27 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(37, 37, 230);
+    background-color: rgb(219, 79, 219);
+
+}
+
+#nextgen{
+    display: flex;
+    margin-top: 6%;
+    justify-content: space-around;
+}
+
+.welcome{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+#footer{
+    display: flex;
+    width: 250px;
+    height: 105px;
+    margin-top: 15%;
+    justify-content: space-between;
+    gap: 320px;
+}
