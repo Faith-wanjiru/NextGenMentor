@@ -1,16 +1,16 @@
-input[type=text],input[type=password]{
-    width: 100%;
-    padding: 12px 20px;
-    display: inline-block;
+input[type=text]{
+    width: 50%;
+    padding: 12px;
+}
+
+input[type=password]{
+    margin-top: 35%;
 }
 
 .signin{
-    color: white;
-    background-color: rgb(255, 0, 170);
-    width: 150px;
-    border-radius: 15px;
-    height: 50px;
-    font-size: xx-large;
+    color:black;
+    font-size: 35px;
+    margin-left: 40%;
 }
 
 #signin{
@@ -19,14 +19,29 @@ input[type=text],input[type=password]{
     align-items: center;
     margin-left: 43%;
     color:white;
-    background-color: blueviolet;
     border-radius: 25px;
+}
+.sign{
+    margin-left: 38%;
+    width: 15%;
+    height: 38px;
+    color: whitesmoke;
+    background-color: rgb(27, 236, 236);
+    font-size: 30px;
+    border-radius: 19px;
 }
 
 #login{
-    border: 2px solid;
     padding: 20px;
     justify-content: space-between;
-    background-color: palevioletred
+    text-align: center;
+    margin-left: 150px
+}
+
+#details{
+    align-items: center;
+    border: 5px solid;
+    width: 70%;
+    justify-content: center;
 }
 

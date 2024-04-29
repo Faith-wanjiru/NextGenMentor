@@ -1,6 +1,7 @@
 #navbar{
     display: flex;
     justify-content: space-between;
+    background-color: rgb(233, 116, 233);
 }
 
 #goal-setting{

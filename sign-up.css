@@ -8,45 +8,42 @@ input[type=text], input[type=firstName]{
 input[type=text], input[type=password]{
     width: 100%;
     padding: 15px;
-    margin: 5px;
+     margin: 5px;
     display: inline-block;
     border: 2px;
 }
 
 .signup{
-    width: 20%;
-    padding: 14px 20px;
-    color: white;
-    background-color:rgb(17, 161, 161);
-}
-
-.cancel{
-    width: 25%;
-    padding: 14px 20px;
-    color: black;
-    background-color: rgb(51, 211, 51);
+    font-size: 20px;
 }
 
 #signup{
-    text-align: center;
-    font-size: xx-large;
-    align-items: center;
-    margin-left: 43%;
-    color:white;
-    background-color: blueviolet;
-    border-radius: 25px;
+    margin-left: 40%;
+    font-size: 40px;
 }
 
-.signup{
-    border: 61px solid;
-    padding: 20px;
-    justify-content: space-between;
-}
-
-.registration{
+#register{
     display: flex;
-    width: 65%;
+    justify-content: space-between;
+    font-size: 20px;
 }
+
+.sign{
+    width: 110px;
+    height: 50px;
+    margin-left: 40%;
+    border-radius: 30px;
+    background-color: aqua;
+    font-size: 20px;
+    color:whitesmoke;
+}
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 280px) and (max-width:653px){
@@ -75,12 +72,5 @@ input[type=text], input[type=password]{
         flex-wrap: wrap;
     }
 
-    .cancel{
-        width: 20%;
-        padding: 14px 20px;
-        color: black;
-        background-color: rgb(51, 211, 51);
-        flex-wrap: wrap;
-    }
-}
+   
 

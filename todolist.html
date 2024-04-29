@@ -17,22 +17,23 @@
     <span><a href="todolist.html">To Do List</a></span>
     <span><a href="mentor's-profile.html">MeetMentor</a></span >
    </div>
-    <div >
-        <input type="checkbox" id="novel" name="Trevor" value="novel">
-        <label for=novel><a href="summary.html"></a>Born A Crime</label>
-        <br/>
-        <br/>
-        <input type="checkbox" id="Das" name="maxheap" value="1">
-        <label for="maxheap">Max Heap</label>
-        <br/>
-        <br/>
-        <input type="checkbox" id="" name="" value="">
-        <label for=""></label>
-        <br/>
-        <br/>
-        <input type="checkbox" id="" name="" value="">
-        <label for=""> </label>
+    <div class="header" >
+       
+        <h2>MY TO DO LIST</h2>
+        <input type="text" id="myInput" placeholder="Title">
+        <span onclick="newElement()" class="addbutton">Add</span>
     </div>
+    <div id="goal">
+    <ul id="myUl">
+        <a href="summary.html"><li class="checked">Born A Crime</li></a>
+        <br/>
+        <li>Submission Of Assignments</li>
+        <br/>
+        <li>Max Heaps</li>
+        <br/>
+        <li>DAS</li>
+    </ul>
+</div>
     
 </body>
-</html>
+</html> 
