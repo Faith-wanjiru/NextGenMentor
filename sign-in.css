@@ -10,7 +10,7 @@ input[type=password]{
 .signin{
     color:black;
     font-size: 35px;
-    margin-left: 40%;
+    margin-left: 15%;
 }
 
 #signin{
@@ -22,26 +22,31 @@ input[type=password]{
     border-radius: 25px;
 }
 .sign{
-    margin-left: 38%;
-    width: 15%;
+    margin-left: 15%;
+    width: 115px;
     height: 38px;
     color: whitesmoke;
     background-color: rgb(27, 236, 236);
     font-size: 30px;
-    border-radius: 19px;
+    border-radius: 49px;
 }
 
 #login{
-    padding: 20px;
-    justify-content: space-between;
-    text-align: center;
-    margin-left: 150px
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 29%;
+    border: solid 5px;
+    width: 455px;
+    height: 540px;
 }
 
 #details{
     align-items: center;
-    border: 5px solid;
     width: 70%;
     justify-content: center;
+}
+
+#username{
+    display: flex;
 }
 
