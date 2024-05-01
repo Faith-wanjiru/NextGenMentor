@@ -1,9 +1,17 @@
 .summary{
-    font-size: 30px;
+    font-size: x-large;
+    text-align: justify;
+    row-gap: 20px;
+    column-gap: 25px;
 
 }
 
 .book{
-    width: 100px;
-    align-content: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+.image{
+    width:100px;
+    justify-content: center;
 }

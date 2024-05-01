@@ -7,8 +7,9 @@ ul li{
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
-    font-size: 18px;
+    font-size: 28px;
     background-color: orangered;
+    width:590px;
 }
 
 ul li.checked::before{
@@ -26,5 +27,23 @@ ul li:hover{
 }
 
 #goal{
-    gap:;
+    gap:5;
+}
+
+.todo{
+    margin-left: 20%;
+
+}
+.header{
+    margin-left: 20px;
+    width: 20px;
+    
+}
+
+#navbar{
+    display: flex;
+    gap: 90px;
+    justify-content: space-between;
+    background-color: rgb(233, 116, 233);
+
 }

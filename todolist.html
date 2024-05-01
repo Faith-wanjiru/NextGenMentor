@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="mentor's-profile.css">
+    <link rel="stylesheet" href="todolist.css">
 </head>
 <body>
     <div id="navbar">
@@ -17,15 +17,18 @@
     <span><a href="todolist.html">To Do List</a></span>
     <span><a href="mentor's-profile.html">MeetMentor</a></span >
    </div>
-    <div class="header" >
-       
+    
+   <div class="todo">
+   <div class="header" >
         <h2>MY TO DO LIST</h2>
         <input type="text" id="myInput" placeholder="Title">
         <span onclick="newElement()" class="addbutton">Add</span>
     </div>
     <div id="goal">
     <ul id="myUl">
-        <a href="summary.html"><li class="checked">Born A Crime</li></a>
+        <a href="summary.html"><li class="checked">Born A Crime<button>View</button></li></a>
+
+        <!-- <a href="summary.html"><button>View</button></a> -->
         <br/>
         <li>Submission Of Assignments</li>
         <br/>
@@ -33,6 +36,7 @@
         <br/>
         <li>DAS</li>
     </ul>
+</div>
 </div>
     
 </body>
