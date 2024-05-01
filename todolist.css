@@ -36,8 +36,12 @@ ul li:hover{
 }
 .header{
     margin-left: 20px;
-    width: 20px;
-    
+    /* width: 20px; */
+
+}
+
+.heading{
+    gap: 20px;
 }
 
 #navbar{
@@ -46,4 +50,9 @@ ul li:hover{
     justify-content: space-between;
     background-color: rgb(233, 116, 233);
 
+}
+
+.view{
+    width: 100px;
+    height: 55px;
 }
