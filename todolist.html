@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="todolist.css">
-</head>
-<body>
+    <link rel="stylesheet" href="todolist.css" />
+  </head>
+  <body>
     <div id="navbar">
-    <div class="logo">
-        <img src="/image/logo mentor.png" width=105px height="70px">
-    </div>
-    <span> <a href="homepage.html">Home</a></span>
-    <span><a href="achievements.html">Achievements</a></span>
-    <span><a href="goal-setting.html">Goal setting</a></span>
-    <span><a href="todolist.html">To Do List</a></span>
-    <span><a href="mentor's-profile.html">MeetMentor</a></span >
-   </div>
-    
-   <div class="todo">
-   <div class="header" >
-    <div class="heading">
-        <h2>MY TO DO LIST</h2>
+      <div class="logo">
+        <img src="/image/logo mentor.png" width="105px" height="70px" />
+      </div>
+      <span> <a href="homepage.html">Home</a></span>
+      <span><a href="achievements.html">Achievements</a></span>
+      <span><a href="goal-setting.html">Goal setting</a></span>
+      <span><a href="todolist.html">To Do List</a></span>
+      <span><a href="mentor's-profile.html">MeetMentor</a></span>
     </div>
 
-    <div>
-        <input type="text" id="myInput" placeholder="Title">
-        <span onclick="newElement()" class="addbutton">Add</span>
-    </div>
-    </div>
-    <div id="goal">
-    <ul id="myUl">
+    <div class="todo">
+      <div class="header">
+        <div class="heading">
+          <h2>MY TO DO LIST</h2>
+        </div>
+
         <div>
-        <a href="summary.html"><li class="checked"><button class="view">View</button></li></a>
-    </div>
+          <input type="text" id="myInput" placeholder="Title" />
+          <span onclick="newElement()" class="addbutton">Add</span>
+        </div>
+      </div>
+      <div id="goal">
+        <ul id="myUl">
+          <div class="view1">
+            <!-- <div class=""> -->
+              <div class="born">
+                <a href="summary.html"
+                ><li class="checked"><input type="checkbox">
+                  Born A Crime
+                  
+                  <button class="View">View</button>
+               
+                </li></a>
+              </div>
+           
+            
+          </div>
 
-        <!-- <a href="summary.html"><button>View</button></a> -->
-        <br/>
-        <li>Submission Of Assignments</li>
-        <br/>
-        <li>Max Heaps</li>
-        <br/>
-        <li>DAS</li>
-    </ul>
-</div>
-</div>
-    
-</body>
-</html> 
+          <!-- <a href="summary.html"><button>View</button></a> -->
+          <br />
+          <li><input type="checkbox">Submission Of Assignments</li>
+          <br />
+          <li><input type="checkbox">Max Heaps</li>
+          <br />
+          <li><input type="checkbox">DAS</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

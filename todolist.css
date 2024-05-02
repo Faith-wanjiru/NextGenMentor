@@ -54,5 +54,31 @@ ul li:hover{
 
 .view{
     width: 100px;
-    height: 55px;
+    height: 35px;
+    margin-left: 300px;
+    margin-bottom: 50%;
 }
+
+.view1 {
+    gap: 20px; */
+     padding: 1%
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.born{
+    display: flex;
+padding-top: 10px;
+
+
+}
+
+.View{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+/* .view2{
+    margin-left: 80%;
+    
+} */

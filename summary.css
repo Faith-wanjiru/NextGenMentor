@@ -3,6 +3,7 @@
     text-align: justify;
     row-gap: 20px;
     column-gap: 25px;
+    word-wrap: break-word;
 
 }
 
